@@ -1,0 +1,102 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  cursor: pointer;
+}
+
+.search-box {
+  position: absolute;
+  margin-left: 300px;
+  width: 40%;
+
+}
+.search-input {
+  padding: 8px 28px 8px 8px; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.control{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 30px;
+}
+.label{
+  color: #007bff;
+  margin-left: 10px;
+  padding: 5px;
+}
+.label:hover{
+  background-color: rgb(230, 228, 228);
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  background: white;
+}
+
+.btn img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.btn span {
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: rgb(230, 228, 228);
+}
+
+.export-btn:hover {
+  background-color: #007bff;
+}
+
+.chart-btn:hover {
+  background-color: #007bff;
+}
+
+
+.chart-btn img {
+  width: 14px;
+  height: 14px;
+}
