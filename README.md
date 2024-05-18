@@ -12,7 +12,7 @@ This web application provides a dashboard for viewing and managing cryptocurrenc
 - **Chart Visualization**: View cryptocurrency data using charts for better insights.
 - **Delete Functionality**: Delete selected cryptocurrencies.
 - **Export Data**: Export cryptocurrency data.
-- **Responsive Design**: Ensure proper display on different devices and screen sizes.
+
 
 ## Technologies Used
 
@@ -27,17 +27,25 @@ The project follows a structured organization with separate components for the t
 
 src/
 |-- components/
+| |-- Chart/
+| | |-- Chart.css
+| | |-- Chart.js
+| |-- Filter/
+| | |-- Filter.css
+| | |-- Filter.js
+| |-- Pagination/
+| | |-- Pagination.css
+| | |-- Pagination.js
+| |-- SortIcon/
+| | |-- SortIcon.css
+| | |-- SortIcon.js
 | |-- Table/
 | | |-- Table.js
 | | |-- Table.css
-| |-- Pagination/
-| | |-- Pagination.js
-| |-- Filter/
-| | |-- Filter.js
-| |-- SortIcon/
-| | |-- SortIcon.js
-| |-- Chart/
-| | |-- Chart.js
+|-- pages/
+| |-- Home.js
+|-- utils/
+| |-- api.js
 |-- App.js
 |-- index.js
 
