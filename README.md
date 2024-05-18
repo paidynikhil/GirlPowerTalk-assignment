@@ -23,7 +23,7 @@ This web application provides a dashboard for viewing and managing cryptocurrenc
 
 ## Project Structure
 
-The project follows a structured organization with separate components for the table, pagination, filter, chart, etc. Here's the directory structure:
+The project follows a structured organization with separate components for the chart, filter, pagination, table etc. Here's the directory structure:
 
 src/
 |-- components/
